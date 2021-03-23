@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>HMS_about us</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADE8vAA6ejtAEG/uQCa498AGH14AO36+QAPB/AAnaSmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVQMkd3dCMFVVAyR3d0IwVQADJHd3QjAAMzJHd3d0IzMiJHcREXdCIkRHdxZhd3REd3cRFmERd3d3dxZmZmF3d3d3FmZmYXd3d3cRFmERd3dER3cWYXd0RCIkdxERd0IiMzJHd3d0IzMAAyR3d0IwAFUDJHd3QjBVVQMkd3dCMFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+	  
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+	
+  </style>
+  <title></title>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;color: #060f08;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 10px;background-color:#ffffff;">
+    <h1 class="display-4">Our Mission</h1>
+    <p class="lead">Our mission is to deliver high quality, affordable healthcare services to the broader population in Bangladesh. Our core values are represented by the acronym "iCare", which encompasses innovation and efficiency, Compassionate care, Accountability, Respect for all, and Excellence as a culture. At the same time, we seek to generate a strong financial performance and deliver long-term value to our shareholders through the execution of our business strategy.</p>
+    <hr class="my-4">
+    <p>Explore our Website.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+  </div>
+  {% include "hospital/footer.html" %}
+</body>
+
+
+</html>
